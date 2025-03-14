@@ -47,22 +47,27 @@ rush-02
 
 **Files to turn in:** Makefile and all the necessary files
 
-**Allowed functions:** All functions of the `conection` libary
+**Allowed functions:** All functions of the `connection` libary
 
 - Create a program that takes a number as argument and converts it to its written letters value.
 
-- Create a bot for the coregame, using the `conection` libary.
+- Create a bot for the coregame, using the `connection` libary.
 
 - Your bot must win against 5 enemy bots doing the evaluatuion.
 
 - If you need more than one file for functions you need to include it manually in the `Makefile`.
 
-- The name of your bot must match your the intra name of your team lead.
+- The name of your bot must match the intra name of your team lead.
+
+- Here are some sources for the coregame:
+  - Video: `video.mp4`
+  - Coregame website: `coregame.de`
+  - Coregame wiki : `wiki.coregame.de`
 
 - Your source code will be compiled as follows:
   ```
   make
-  ```
+  ``` 
 
 - Your code must match the 42 norm.
 
