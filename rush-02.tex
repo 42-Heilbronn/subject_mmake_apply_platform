@@ -6,6 +6,7 @@
 \usepackage{bookmark}
 \usepackage{enumitem}
 \usepackage{graphicx} % Added for image support
+\usepackage{minted}
 
 % Add wallpaper package for background image
 \usepackage{wallpaper}
@@ -42,17 +43,17 @@
 \section{Instructions}
 
 \begin{itemize}
-  \item The group WILL be registered to defense. Automatically. If one of you cancels it, there won't be another one.
+  \item The group WILL be registered for defense. Automatically. If one of you cancels it, there won't be another one.
   \item Any question regarding the subject will probably complicate the subject.
   \item You have to follow the submission procedures for all your exercises.
   \item This subject could change up to an hour before submission.
   \item Moulinette compiles with the following flags: '-Wall -Wextra -Werror' and uses 'cc'.
   \item If your program doesn't compile, you'll get 0.
-  \item You must therefore do the project with the imposed team and show up at the defense slot you've assigned, with all of your teammates.
-  \item Each member of your group must be fully aware of the works of the project. Should you choose to split the workload, make sure you all understand what everybody's done. During defense, you'll be asked questions, and the final grade will be based on the worst explainations.
+  \item You must therefore do the project with the imposed team and show up at the defense slot you've been assigned, with all of your teammates.
+  \item Each member of your group must be fully aware of the works of the project. Should you choose to split the workload, make sure you all understand what everybody's done. During defense, you'll be asked questions, and the final grade will be based on the worst explanations.
   \item Gathering the group is your responsibility. You've got all the means to get in contact with your teammates: phone, email, carrier pigeon, spiritism, etc. So don't bother blurping up excuses. Life isn't always fair, that's just the way it is.
-  \item However, if you've really tried everything one of your teammates remains unreachable: do the project anyway, and we'll try and see what we can do about it during defense. Even if the group leader is missing, you still have access to the submission directory.
-  \item It goes without saying, but your work must respect the Norm. Be thourough. And enjoy!
+  \item However, if you've really tried everything and one of your teammates remains unreachable: do the project anyway, and we'll try and see what we can do about it during defense. Even if the group leader is missing, you still have access to the submission directory.
+  \item It goes without saying, but your work must respect the Norm. Be thorough. And enjoy!
 \end{itemize}
 
 \newpage
@@ -82,18 +83,18 @@
 \section{Subject}
 
 \begin{description}[labelwidth=3cm, leftmargin=!]
-  \item[Exercise 00] rush-02
+  \item[Exercise 00:] rush-02
   \item[Turn-in directory:] ex00/
   \item[Files to turn in:] Makefile and all the necessary files
-  \item[Allowed functions:] All functions of the connection libary
+  \item[Allowed functions:] All functions of the connection library
 \end{description}
 
 \begin{itemize}
   \item Create a program that takes a number as argument and converts it to its written letters value.
   
-  \item Create a bot for the coregame, using the \texttt{connection} libary.
+  \item Create a bot for the coregame, using the \texttt{connection} library.
   
-  \item Your bot must win against 5 enemy bots doing the evaluatuion.
+  \item Your bot must win against 5 enemy bots doing the evaluation.
   
   \item If you need more than one file for functions you need to include it manually in the \texttt{Makefile}.
   
@@ -102,15 +103,15 @@
   \item Here are some sources for the coregame:
   \begin{itemize}
     \item Video: \texttt{video.mp4}
-    \item Coregame website: \texttt{coregame.de}
-    \item Coregame wiki: \texttt{wiki.coregame.de}
+    \item Coregame website: \href{https://coregame.de}{\texttt{coregame.de}}
+    \item Coregame wiki: \href{https://wiki.coregame.de}{\texttt{wiki.coregame.de}}
   \end{itemize}
   
   \item Your source code will be compiled as follows:
   
-  \begin{verbatim}
+  \begin{minted}[frame=single,linenos]{c}
   make
-  \end{verbatim}
+  \end{minted}
   
   \item Your code must match the 42 norm.
   
