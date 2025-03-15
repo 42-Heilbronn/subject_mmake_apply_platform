@@ -5,42 +5,32 @@
 \usepackage{hyperref}
 \usepackage{bookmark}
 \usepackage{enumitem}
-\usepackage{graphicx} % Added for image support
+\usepackage{graphicx}
 \usepackage{minted}
-
-% Add wallpaper package for background image
 \usepackage{wallpaper}
-% Set the background image for all pages
-\CenterWallPaper{1}{background.png}
 
-% Alternative method with more control (opacity)
-% Uncomment these if you prefer this method instead of the wallpaper package
-% \usepackage{tikz}
-% \usepackage{eso-pic}
-% \AddToShipoutPictureBG{%
-%   \begin{tikzpicture}[remember picture, overlay]
-%     \node[opacity=0.3] at (current page.center) {
-%       \includegraphics[width=\paperwidth,height=\paperheight]{background-image.jpg}
-%     };
-%   \end{tikzpicture}%
-% }
+\CenterWallPaper{1}{background.png}
 
 \begin{document}
 
-% Logo and title on the first page
 \begin{center}
   \includegraphics[width=0.7\textwidth]{logo-back.png}
   
-  \vspace{1cm} % Add some vertical space between logo and title
+  \vspace{1cm}
   
-  {\huge \textbf{C Piscine Rush-02}} % Title text
+  \begin{center}
+    \Huge C Piscine \\
+    \LARGE Rush-02 \\
+  \end{center}
 \end{center}
 
 \newpage
 \tableofcontents
 \newpage
 
-\section{Instructions}
+\section*{\LARGE Chapter I}
+\section*{\LARGE Introduction}
+\addcontentsline{toc}{section}{Introduction}
 
 \begin{itemize}
   \item The group WILL be registered for defense. Automatically. If one of you cancels it, there won't be another one.
@@ -58,7 +48,9 @@
 
 \newpage
 
-\section{Foreword}
+\section*{\LARGE Chapter II}
+\section*{\LARGE Foreword}
+\addcontentsline{toc}{section}{Foreword}
 
 \begin{flushleft}
     It is a period of civil war.\\
@@ -80,14 +72,26 @@
 
 \newpage
 
-\section{Subject}
+\section*{\LARGE Chapter III}
+\section*{\LARGE Subject}
+\addcontentsline{toc}{section}{Subject}
 
-\begin{description}[labelwidth=3cm, leftmargin=!]
-  \item[Exercise 00:] rush-02
-  \item[Turn-in directory:] ex00/
-  \item[Files to turn in:] Makefile and all the necessary files
-  \item[Allowed functions:] All functions of the connection library
-\end{description}
+\resizebox{1\textwidth}{!}{
+\begin{tabular}{|c|c|}
+ \hline
+\begin{tabular}{@{}c@{}} \includegraphics[height=1cm]{logo-back.png} \end{tabular} &
+\multicolumn{1}{|c|}{\normalsize Exercise 00} \\
+\hline
+\multicolumn{2}{|c|}{\normalsize rush-02} \tabularnewline
+\hline
+\multicolumn{2}{|l|}{\normalsize Turn-in directory : ex00/} \tabularnewline
+\hline
+\multicolumn{2}{|l|}{\normalsize Files to turn in : Makefile and all the necessary files} \tabularnewline
+\hline
+\multicolumn{2}{|l|}{\normalsize Allowed functions : All functions of the 'connection' library} \tabularnewline
+\hline
+\end{tabular}
+}
 
 \begin{itemize}
   \item Create a program that takes a number as argument and converts it to its written letters value.
@@ -120,6 +124,8 @@
 
 \newpage
 
-\section{Bonus}
+\section*{\LARGE Chapter IV}
+\section*{\LARGE Bonus}
+\addcontentsline{toc}{section}{Bonus}
 
 \end{document}

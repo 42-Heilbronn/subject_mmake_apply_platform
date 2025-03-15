@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {1}Instructions}{3}{section.1}%
-\contentsline {section}{\numberline {2}Foreword}{4}{section.2}%
-\contentsline {section}{\numberline {3}Subject}{5}{section.3}%
-\contentsline {section}{\numberline {4}Bonus}{6}{section.4}%
+\contentsline {section}{Introduction}{3}{section*.3}%
+\contentsline {section}{Foreword}{4}{section*.5}%
+\contentsline {section}{Subject}{5}{section*.7}%
+\contentsline {section}{Bonus}{6}{section*.9}%
