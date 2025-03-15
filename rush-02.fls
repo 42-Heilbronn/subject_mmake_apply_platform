@@ -202,7 +202,6 @@ INPUT ./logo-back.png
 INPUT ./logo-back.png
 INPUT ./logo-back.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 OUTPUT _31B56A16081673E705FE2750198F55B8.data.minted
 INPUT ./_31B56A16081673E705FE2750198F55B8.config.minted
 INPUT ./_31B56A16081673E705FE2750198F55B8.config.minted
@@ -212,6 +211,17 @@ INPUT ./_minted/_31B56A16081673E705FE2750198F55B8.index.minted
 INPUT ./_minted/default.style.minted
 INPUT ./_minted/default.style.minted
 INPUT _minted/default.style.minted
+INPUT ./_minted/4BA2655BBBE1F1CD4298BB841A89C7C5.highlight.minted
+INPUT ./_minted/4BA2655BBBE1F1CD4298BB841A89C7C5.highlight.minted
+INPUT _minted/4BA2655BBBE1F1CD4298BB841A89C7C5.highlight.minted
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT ./_minted/C89B5118B9035AB39071EEC99C4C7EA8.highlight.minted
+INPUT ./_minted/C89B5118B9035AB39071EEC99C4C7EA8.highlight.minted
+INPUT _minted/C89B5118B9035AB39071EEC99C4C7EA8.highlight.minted
+INPUT ./_minted/AB49FFCB1DD77A0133CF24E05719AF28.highlight.minted
+INPUT ./_minted/AB49FFCB1DD77A0133CF24E05719AF28.highlight.minted
+INPUT _minted/AB49FFCB1DD77A0133CF24E05719AF28.highlight.minted
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT ./_minted/A33B78D1B43533B3FCCAABFE9B6C62DA.highlight.minted
 INPUT ./_minted/A33B78D1B43533B3FCCAABFE9B6C62DA.highlight.minted
 INPUT _minted/A33B78D1B43533B3FCCAABFE9B6C62DA.highlight.minted
@@ -229,5 +239,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
