@@ -201,6 +201,7 @@ INPUT ./logo-back.png
 INPUT ./logo-back.png
 INPUT ./logo-back.png
 INPUT ./logo-back.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 OUTPUT _31B56A16081673E705FE2750198F55B8.data.minted
 INPUT ./_31B56A16081673E705FE2750198F55B8.config.minted
@@ -224,6 +225,7 @@ INPUT ./background.png
 INPUT ./background.png
 INPUT rush-02.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
