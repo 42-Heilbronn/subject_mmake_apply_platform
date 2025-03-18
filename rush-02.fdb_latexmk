@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1742258853.45833 "/home/anakin/Desktop/core/rush-02/rush-02.tex" "rush-02.pdf" "rush-02" 1742258856.09937 0
+["pdflatex"] 1742259396.98772 "/home/anakin/Desktop/core/rush-02/rush-02.tex" "rush-02.pdf" "rush-02" 1742259399.67942 0
   "/etc/texmf/web2c/texmf.cnf" 1740149429.97553 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/anakin/Desktop/core/rush-02/rush-02.tex" 1742258853.12309 4758 2b14308efa236943d4996b8520b2d4c8 ""
+  "/home/anakin/Desktop/core/rush-02/rush-02.tex" 1742259396.72817 4698 c0afddc6c081730732bf5eba1ce35725 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -105,9 +105,9 @@
   "_minted/default.style.minted" 1742073869.46493 6426 e1fb43a91491f41b33310478eee48cdb ""
   "background.png" 1742073869.46892 120659 d173b0c606627c20590e43a26d282c79 ""
   "logo-back.png" 1742073869.46892 7411 7f04ccefdcae443f9531a0fee4f65d1d ""
-  "rush-02.aux" 1742258856.01134 1261 c719a45547252963211c484b699b4937 "pdflatex"
-  "rush-02.tex" 1742258853.12309 4758 2b14308efa236943d4996b8520b2d4c8 ""
-  "rush-02.toc" 1742258856.01134 200 6bfb13765206fbe61c423f749d94df9e "pdflatex"
+  "rush-02.aux" 1742259399.6001 1261 c719a45547252963211c484b699b4937 "pdflatex"
+  "rush-02.tex" 1742259396.72817 4698 c0afddc6c081730732bf5eba1ce35725 ""
+  "rush-02.toc" 1742259399.6041 200 6bfb13765206fbe61c423f749d94df9e "pdflatex"
   (generated)
   "rush-02.aux"
   "rush-02.log"
